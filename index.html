@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta description="">
+</head>
+<body>
+     <h1>E-Mail senden</h1>
+    <form action="script.php" method="post">
+        <label for="empfanger">Empfänger:</label>
+        <input type="email" id="empfanger" name="empfanger" required><br><br>
+
+        <label for="betreff">Betreff:</label>
+        <input type="text" id="betreff" name="betreff" required><br><br>
+
+        <label for="nachricht">Nachricht:</label><br>
+        <textarea id="nachricht" name="nachricht" rows="5" required></textarea><br><br>
+
+        <input type="submit" value="E-Mail senden">
+    </form>
+</body>
+</html>
