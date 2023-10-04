@@ -1,17 +1,23 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $empfaenger = $_POST["empfaenger"];
-    $betreff = $_POST["betreff"];
+    $name = $_POST["name"];
+    $email = $_POST["email"];
     $nachricht = $_POST["nachricht"];
 
-    // E-Mail-Versand
-    $from = "thomas.meyer1984@web.de"; // Absenderadresse (ersetze sie durch deine eigene)
-    $headers = "From: $from";
+    // Empfänger-E-Mail-Adresse
+    $empfaenger = "ziel@email.com"; // Hier die E-Mail-Adresse des Empfängers eintragen
 
-    if (mail($empfaenger, $betreff, $nachricht, $headers)) {
-        echo "Die E-Mail wurde erfolgreich gesendet.";
+    // Betreff und Nachricht
+    $betreff = "Kontaktanfrage von $name";
+    $nachricht = "Name: $name\n";
+    $nachricht .= "E-Mail: $email\n\n";
+    $nachricht .= "Nachricht:\n$nachricht";
+
+    // E-Mail-Versand
+    if (mail($empfaenger, $betreff, $nachricht)) {
+        echo "Die Nachricht wurde erfolgreich gesendet. Vielen Dank, $name!";
     } else {
-        echo "Die E-Mail konnte nicht gesendet werden. Bitte versuche es später erneut.";
+        echo "Die Nachricht konnte nicht gesendet werden. Bitte versuchen Sie es später erneut.";
     }
 }
 ?>

@@ -9,17 +9,19 @@
 </head>
 <body>
      <h1>E-Mail senden</h1>
-    <form action="script.php" method="post">
-        <label for="empfanger">Empfänger:</label>
-        <input type="email" id="empfanger" name="empfanger" required><br><br>
-
-        <label for="betreff">Betreff:</label>
-        <input type="text" id="betreff" name="betreff" required><br><br>
-
-        <label for="nachricht">Nachricht:</label><br>
-        <textarea id="nachricht" name="nachricht" rows="5" required></textarea><br><br>
-
-        <input type="submit" value="E-Mail senden">
+     <h1>Kontaktformular</h1>
+     <form action="send_email.php" method="post">
+         <label for="name">Name:</label>
+         <input type="text" id="name" name="name" required><br><br>
+ 
+         <label for="email">E-Mail:</label>
+         <input type="email" id="email" name="email" required><br><br>
+ 
+         <label for="nachricht">Nachricht:</label><br>
+         <textarea id="nachricht" name="nachricht" rows="5" required></textarea><br><br>
+ 
+         <input type="submit" value="Absenden">
+     </form>
     </form>
 </body>
 </html>
