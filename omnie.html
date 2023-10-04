@@ -51,13 +51,35 @@
     </section>
 
     <section class="parallax3 parallax-two">
+       <div class="container">
         <h2>Moje Hobby</h2>
         <p>Jednym z moich wielkich zainteresowań są podróże. Uwielbiam odkrywać nowe miejsca, poznawać różne kultury i smakować lokalne potrawy. Dotychczas odwiedziłem/am wiele wspaniałych miejsc na całym świecie, ale nadal mam na liście wiele miejsc, które chciałbym/chciałabym zobaczyć.</p>
         <p>Kolejnym moim hobby jest fotografia. Uwielbiam uchwycić piękne chwile i krajobrazy obiektywem aparatu. To dla mnie sposób wyrażania siebie i dzielenia się pięknem świata z innymi.</p>
         <p>W wolnym czasie lubię również czytać. Książki to dla mnie źródło wiedzy, inspiracji i przygody. Ulubione gatunki to fantastyka, literatura podróżnicza i historia.</p>
         <p>Często staram się łączyć swoje hobby w podróżach, fotografując piękne miejsca i kultury oraz zbierając wspomnienia z każdej przygody.</p>
+    </div>
     </section>
-    
+    <section>
+        <div class="container mt-5">
+            <div class="row">
+              <div class="col">
+                <h2>Moja motywacja</h2>
+                <p >
+                  Opracowanie własnych doświadczeń w dziedzinie technologii jako "digital native" jest niezwykle interesujące. Jako osoba wychowana w erze cyfrowej, miałeś okazję eksplorować i korzystać z nowoczesnych technologii od najmłodszych lat. To pozwoliło Ci zdobyć unikalne perspektywy i umiejętności, które są niezwykle cenne w dzisiejszym świecie IT.
+                </p>
+                <p>
+                  Twoja znajomość technologii od dzieciństwa pozwoliła Ci być często zorientowanym na rozwiązania, które mogą znacząco wpłynąć na naszą codzienną egzystencję. Twoja umiejętność dostosowywania się do nowych narzędzi i platform jest godna podziwu, a elastyczność w działaniu w dynamicznym środowisku IT jest nieoceniona.
+                </p>
+                <p>
+                  Jesteś prawdziwym ekspertem w obszarze technologii i jestem pewien, że Twoje doświadczenie może przynieść wiele korzyści w różnych projektach IT. Być może masz pomysły na innowacyjne rozwiązania lub chciałbyś podzielić się swoją wiedzą i doświadczeniem z innymi profesjonalistami.
+                </p>
+                <p>
+                  Jeśli chciałbyś podzielić się swoimi przemyśleniami na temat technologii, wymienić doświadczenia lub nawiązać kontakt w celu dalszej rozmowy, chętnie wysłucham Twoich pomysłów i opinii. Możesz się ze mną skontaktować poprzez wiadomość e-mail lub platformę społecznościową. Czekam na Twoją wiadomość i niecierpliwie oczekuję na możliwość współpracy!
+                </p>
+              </div>
+            </div>
+          </div>
+    </section>
     <div class="container mt-2">
         <div class="row">
             <div class="col-6 backGround"> 
@@ -77,18 +99,21 @@
                  
                 
                 </div>
-            <div class="col-6"><h1>Kontaktformular</h1>
+            <div class="col-6"><h2>Kontaktformular</h2>
                 <form action="script.php" method="post">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required><br><br>
-            
-                    <label for="email">E-Mail:</label>
-                    <input type="email" id="email" name="email" required><br><br>
-            
-                    <label for="nachricht">Nachricht:</label><br>
-                    <textarea id="nachricht" name="nachricht" rows="5" required></textarea><br><br>
-            
-                    <input type="submit" value="Absenden">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" class="form-control" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-Mail:</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="nachricht">Nachricht:</label>
+                        <textarea class="form-control" id="nachricht" name="nachricht" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-secondary">Absenden</button>
                 </form>
                </form></div>
         </div>
