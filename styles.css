@@ -114,3 +114,40 @@ transition-delay: 0ms;
 cursor: pointer;
      }
 
+     .parallax3 {
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        color: white;
+        padding: 100px 0;
+        height: 100vh;
+    }
+    
+    .parallax-one {
+        background-image: url('images/thomas.jpg');
+    }
+    
+    .parallax-two {
+        background-image: url('bild2.jpg');
+    }
+    
+    .content3 {
+        background-color: #f4f4f4;
+        text-align: center;
+        padding: 50px 0;
+    }
+    
+    .container3 {
+        max-width: 960px;
+        margin: 0 auto;
+    }
+    
+    h1, h2 {
+        margin: 0;
+    }
+    
+    p {
+        margin-bottom: 20px;
+    }
