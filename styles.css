@@ -39,11 +39,11 @@ h1, h2 {
 
 /* Stile für die Parallax-Sections */
 .parallax:nth-child(odd) {
-    background-image: url('images/bild1.png'); /* Hintergrundbild 1 */
+    background-image: url('images/Bild1.png'); /* Hintergrundbild 1 */
 }
 
 .parallax:nth-child(even) {
-    background-image: url('images/bild2.png'); /* Hintergrundbild 2 */
+    background-image: url('images/Bild2.png'); /* Hintergrundbild 2 */
 }
 
 .text-container {
