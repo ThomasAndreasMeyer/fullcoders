@@ -83,7 +83,7 @@ h1, h2 {
 /* Add some style to the banner */
 .banner {
   height: 800px; /* Set the height of the banner */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/Logo2 dunkel.png'); /* Add a gradient and a background image to the banner */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/Bild1.jpg'); /* Add a gradient and a background image to the banner */
   background-size: cover; /* Cover the entire banner with the background image */
   background-position: center; /* Center the background image */
   display: flex; /* Make the banner a flex container */
