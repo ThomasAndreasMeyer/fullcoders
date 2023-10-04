@@ -5,7 +5,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $nachricht = $_POST["nachricht"];
 
     // Empfänger-E-Mail-Adresse
-    $empfaenger = "thomas.meyer1984@web.de"; // Hier die E-Mail-Adresse des Empfängers eintragen
+    $empfaenger = "thomas.meyer1984@web.de"; 
 
     // Betreff und Nachricht
     $betreff = "Kontaktanfrage von $name";
