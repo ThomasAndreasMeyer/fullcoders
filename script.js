@@ -20,8 +20,6 @@ window.addEventListener('load', showTextOnScroll);
 window.addEventListener('scroll', showTextOnScroll);
 
 
-       
-
         // JavaScript-Funktion, um die Sprache basierend auf der Auswahl im Dropdown-Menü zu ändern
         function changeLanguageIndex() {
             var selectElement = document.getElementById("language-select");
