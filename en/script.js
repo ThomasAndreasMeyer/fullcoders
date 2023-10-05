@@ -16,31 +16,50 @@ function showTextOnScroll() {
 }
 
 
-// Führe die Funktion showTextOnScroll beim Laden der Seite und beim Scrollen aus
-window.addEventListener('load', showTextOnScroll);
-window.addEventListener('scroll', showTextOnScroll);
 
-// JavaScript-Funktion, um die Sprache basierend auf der Auswahl im Dropdown-Menü zu ändern
-function changeLanguage() {
-    var selectedLanguage = document.getElementById("language-select").value;
-    var page;
+// JavaScript-Funktion zum Ändern der Sprache
+function changeLanguageWebdev() {
+    var languageSelect = document.getElementById("language-select");
+    var selectedLanguage = languageSelect.value;
 
-    // Hier müssen Sie die Seite (page) je nach Bedarf festlegen, basierend auf dem Kontext
-    // Zum Beispiel, wenn es sich um eine Webentwicklungsseite handelt:
-    if (page === 'webdevelopment') {
-        page = 'webdevelopment';
-    } else if (page === 'seo') {
-        page = 'seo';
-    } else {
-        page = ''; // Geben Sie hier die Standardseite an, wenn keine spezifische Seite ausgewählt ist.
+    // Überprüfen Sie die ausgewählte Sprache und aktualisieren Sie die URL entsprechend
+    if (selectedLanguage === "pl") {
+        window.location.href = "https://thomasandreasmeyer.github.io/fullcoders/webdevelopment.html";
+    } else if (selectedLanguage === "en") {
+        window.location.href = "https://thomasandreasmeyer.github.io/fullcoders/en/webdevelopment.html";
+    } else if (selectedLanguage === "de") {
+        window.location.href = "https://thomasandreasmeyer.github.io/fullcoders/de/webdevelopment.html";
     }
-
-    var languageMap = {
-        'en': 'https://thomasandreasmeyer.github.io/fullcoders/en/',
-        'de': 'https://thomasandreasmeyer.github.io/fullcoders/de/',
-        'pl': 'https://thomasandreasmeyer.github.io/fullcoders/'
-    };
-
-    var url = languageMap[selectedLanguage] + page + '.html';
-    window.location.href = url;
 }
+
+
+// JavaScript-Funktion zum Ändern der Sprache
+function changeLanguageOmnie() {
+    var languageSelect = document.getElementById("language-select");
+    var selectedLanguage = languageSelect.value;
+
+    // Überprüfen Sie die ausgewählte Sprache und aktualisieren Sie die URL entsprechend
+    if (selectedLanguage === "pl") {
+        window.location.href = "https://thomasandreasmeyer.github.io/fullcoders/omnie.html";
+    } else if (selectedLanguage === "en") {
+        window.location.href = "https://thomasandreasmeyer.github.io/fullcoders/en/omnie.html";
+    } else if (selectedLanguage === "de") {
+        window.location.href = "https://thomasandreasmeyer.github.io/fullcoders/de/omnie.html";
+    }
+}
+
+// JavaScript-Funktion zum Ändern der Sprache
+function changeLanguageIndex() {
+    var languageSelect = document.getElementById("language-select");
+    var selectedLanguage = languageSelect.value;
+
+    // Überprüfen Sie die ausgewählte Sprache und aktualisieren Sie die URL entsprechend
+    if (selectedLanguage === "pl") {
+        window.location.href = "https://thomasandreasmeyer.github.io/fullcoders/index.html";
+    } else if (selectedLanguage === "en") {
+        window.location.href = "https://thomasandreasmeyer.github.io/fullcoders/en/index.html";
+    } else if (selectedLanguage === "de") {
+        window.location.href = "https://thomasandreasmeyer.github.io/fullcoders/de/index.html";
+    }
+}
+
