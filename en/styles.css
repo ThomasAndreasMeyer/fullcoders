@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.parallax {
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.parallax-inner {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+.content {
+    background: #f5f5f5;
+    padding: 40px 0;
+}
+
+.container2 {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h1, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Stile für die Parallax-Sections */
+.parallax:nth-child(odd) {
+    background-image: url('images/Bild1.jpg'); /* Hintergrundbild 1 */
+}
+
+.parallax:nth-child(even) {
+    background-image: url('images/Bild2.jpg'); /* Hintergrundbild 2 */
+}
+
+.text-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.backGround {
+    background-color: darkgray;
+}
+
+#p {
+    line-height: 14px;
+    background: url(images/Bild2.jpg);
+    -webkit-background-clip: text;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+    background-size: cover;
+    background-position: center;
+}
+#cs {
+    line-height: 14px;
+     background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgb(109, 73, 239) 100%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+    background-size: cover;
+    background-position: center;
+}
+/* Add some style to the banner */
+.banner {
+  height: 800px; /* Set the height of the banner */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/Bild2.jpg'); /* Add a gradient and a background image to the banner */
+  background-size: cover; /* Cover the entire banner with the background image */
+  background-position: center; /* Center the background image */
+  display: flex; /* Make the banner a flex container */
+  align-items: center; /* Center the content vertically */
+  justify-content: center; /* Center the content horizontally */
+  font-size: 48px; /* Set the font size of the text */
+  color: white; /* Make the text white */
+  text-align: center; /* Center the text */
+}
+
+/* Add some parallax effect to the banner */
+.banner {
+  background-attachment: fixed; /* Fix the background image to the viewport */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Do not repeat the background image */
+  background-size: cover; /* Cover the entire banner with the background image */
+}
+.transition {
+transition-property: max-height;
+transition-duration: 750ms;
+transition-timing-function: linear;
+transition-delay: 0ms;
+}
+.transitionShort {
+  transition: color 1.5s linear 0s;
+}
+.game img {
+cursor: pointer;
+     }
+
+     .parallax3 {
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: rgb(255, 255, 255);
+        padding: 100px 0;
+        height: 100vh;
+    }
+    
+    .parallax-one {
+        background-image: url('images/thomas.jpeg');
+        text-align: center;
+    }
+    
+    .parallax-two {
+        background-image: url('images/thomas.jpeg');
+    }
+    
+    .content3 {
+        background-color: #ffffff;
+        padding: 50px 0;
+    }
+    
+    .container3 {
+        max-width: 960px;
+        margin: 0 auto;
+    }
+    
+  
