@@ -16,6 +16,7 @@ function showTextOnScroll() {
 }
 
 
+
 // JavaScript-Funktion zum Ändern der Sprache
 function changeLanguageWebdev() {
     var languageSelect = document.getElementById("language-select");
@@ -61,6 +62,7 @@ function changeLanguageIndex() {
         window.location.href = "https://thomasandreasmeyer.github.io/fullcoders/de/index.html";
     }
 }
+
 
 // JavaScript-Funktion zum Ändern der Sprache
 function changeLanguageSeo() {
