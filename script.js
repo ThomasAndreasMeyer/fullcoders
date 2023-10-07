@@ -15,20 +15,6 @@ function showTextOnScroll() {
     });
 }
 
-// JavaScript-Funktion zum Ändern der Sprache
-function changeLanguageSeo() {
-    var languageSelect = document.getElementById("language-select");
-    var selectedLanguage = languageSelect.value;
-
-    // Überprüfen Sie die ausgewählte Sprache und aktualisieren Sie die URL entsprechend
-    if (selectedLanguage === "pl") {
-        window.location.href = "https://thomasandreasmeyer.github.io/fullcoders/seo.html";
-    } else if (selectedLanguage === "en") {
-        window.location.href = "https://thomasandreasmeyer.github.io/fullcoders/en/seo.html";
-    } else if (selectedLanguage === "de") {
-        window.location.href = "https://thomasandreasmeyer.github.io/fullcoders/de/seo.html";
-    }
-}
 
 // JavaScript-Funktion zum Ändern der Sprache
 function changeLanguageWebdev() {
@@ -83,7 +69,7 @@ function changeLanguageSeo() {
 
     // Überprüfen Sie die ausgewählte Sprache und aktualisieren Sie die URL entsprechend
     if (selectedLanguage === "pl") {
-        window.location.href = "https://thomasandreasmeyer.github.io/fullcodersseo.html";
+        window.location.href = "https://thomasandreasmeyer.github.io/fullcoders/seo.html";
     } else if (selectedLanguage === "en") {
         window.location.href = "https://thomasandreasmeyer.github.io/fullcoders/en/seo.html";
     } else if (selectedLanguage === "de") {
